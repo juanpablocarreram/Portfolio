@@ -5,7 +5,7 @@ const mainSectionTwoPanelDownTitleOne = document.querySelector("#mainSectionTwoP
 const mainSectionTwoPanelDownTitleTwo = document.querySelector("#mainSectionTwoPanelDownTitleTwo");
 const fixed = document.querySelector(".fixed");
 paraboll.style.backgroundPositionY= scrolled * .5 + "px";
-if(scrolled>=1250 && scrolled<=2200){
+if(scrolled>=1100 && scrolled<=2200){
    
     mainSectionTwoPanelDownTitleOne.style.animation="entering-left ease-in-out .4s forwards"
     mainSectionTwoPanelDownTitleTwo.style.animation="entering-right ease-in-out .4s forwards"

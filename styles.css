@@ -91,6 +91,7 @@ border-radius:50%;
     height:550px;
     z-index:1;
     position: relative;
+    display:none;
     transition:.2s all ease;
     filter:hue-rotate(180deg) sepia(75%) contrast(150%) saturate(300%) hue-rotate(180deg) grayscale(.4);
 
